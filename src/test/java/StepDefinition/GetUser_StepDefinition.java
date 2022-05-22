@@ -32,7 +32,7 @@ public class GetUser_StepDefinition extends specBuilders {
         resp.then().
                 assertThat().
                 spec(RespSpecBuilder(jsonSchema)).
-                body("data.id",equalTo(4)).
+                body("data.id",equalTo(3)).
                 log().
                 body().
                 extract().
